@@ -1,0 +1,29 @@
+El método numérico de los trapecios es una técnica utilizada para aproximar la integral definida de una función. 
+Se basa en la idea de dividir el área bajo la curva en segmentos trapezoidales y sumar las áreas de estos trapezoides para obtener una 
+aproximación de la integral.
+
+El procedimiento general del método de los trapecios es el siguiente:
+1.	División del intervalo: Se divide el intervalo de integración en subintervalos de igual tamaño. Cuanto más pequeños sean 
+los subintervalos, mayor será la precisión de la aproximación. Se denota el número de subintervalos como 'n'.
+2.	Aproximación por trapezoides: Se aproxima la curva dentro de cada subintervalo por un trapezoide. 
+La base de cada trapezoide es la distancia entre los puntos límite del subintervalo, y la altura se determina por los 
+valores de la función evaluados en esos puntos.
+3.	Cálculo de las áreas de los trapezoides: Se calcula el área de cada trapezoide utilizando la fórmula del área 
+del trapezoide: (base mayor + base menor) * altura / 2.
+4.	Suma de las áreas: Se suman todas las áreas de los trapezoides para obtener una aproximación de la integral definida.
+
+La fórmula general para la aproximación de la integral utilizando el método de los trapecios es:
+
+∫[a, b] f(x) dx ≈ h/2 * [f(x₀) + 2f(x₁) + 2f(x₂) + ... + 2*f(xₙ₋₁) + f(xₙ)],
+
+donde 'a' y 'b' son los límites inferior y superior de integración respectivamente, 'h' es el tamaño del subintervalo 
+(h = (b - a) / n), 'x₀', 'x₁', ..., 'xₙ' son los puntos límite de los subintervalos, y 'f(x₀)', 'f(x₁)', ..., 'f(xₙ)' 
+son los valores de la función evaluados en esos puntos.
+Es importante tener en cuenta que el método de los trapecios es una aproximación y la precisión aumenta a medida que se 
+utilizan más subintervalos (mayor 'n'). Sin embargo, para funciones con comportamientos complicados o no lineales, 
+es posible que se requiera un número significativo de subintervalos para obtener una aproximación precisa.
+
+En resumen, el método numérico de los trapecios es una técnica sencilla y ampliamente utilizada para aproximar la integral 
+definida de una función mediante el uso de trapezoides. Aunque es un método básico, proporciona una buena aproximación en muchos 
+casos y sienta las bases para otros métodos más avanzados de integración numérica.
+
