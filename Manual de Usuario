@@ -1,0 +1,29 @@
+Introducción
+
+El siguiente programa tiene como objetivo la interacción del método numérico de “Regla del Trapecio” para poder calcular 
+aproximaciones numéricas en integrales definidas, dando el usuario los límites de 3 funciones ya predeterminadas
+
+Ejecutar programa
+
+Para poder ejecutar el programa, se recomienda descargar en tu ordenador la carpeta “WinFormsApp1”, ya que en ella se encuentran 
+todas las carpetas necesarias para el correcto funcionamiento del método
+
+Una vez descargada la carpeta “WinFormsApp1”, necesitaremos ir a la dirección del ejecutable para poder correr el programa, iremos a:
+WinFormsApp1 > WinFormsApp1 > bin > Depurar > net6.0-windows > WinFormsApp1 (ejecutable)
+Y se abrirá el programa, una interfaz muy sencilla de manejar para poder delimitar las funciones predeterminadas
+Una vez tengamos la interfaz abierta, en la parte superior izquierda vendrá un espacio para colocar el límite inferior, 
+en la parte central vendrá para el límite superior, el cual deberá ser obligatoriamente mayor al límite inferior (De igual manera, 
+el programa te arrojará un mensaje en caso de que esta regla no se cumpla)
+Y en el extremo derecho vendrá un espacio para colocar el número de trapecios que el usuario requiera
+
+Una vez llenos esos espacios, podrás hacer click en el botón “Calcular X’s” para que te arroje los valores de todas las X 
+y el valor de h
+Llegados a este punto, teniendo los valores de X a tu izquierda en tu interfaz, aparecerá un cuadro con distintas opciones 
+para seleccionar la función de la cual deseas saber el valor (por conveniencia de código, se han puesto 3 funciones predeterminadas)
+Por último, harás click en el botón que se encuentra hasta abajo “calcular” para que te arroje el resultado
+Si deseas continuar con una función diferente pero los mismos límites y trapecios, basta con cambiar la función y calcular nuevamente
+Por otra parte, si deseas hacer un nuevo cálculo con límites distintos, en la parte inferior derecha encontrarás un botón “limpiar” 
+para borrar los límites que hayas puesto anteriormente
+
+Diciendo todo esto, ya puedes usar la interfaz a tu conveniencia, espero te sirva
+
